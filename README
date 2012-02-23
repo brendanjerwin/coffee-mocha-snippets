@@ -1,10 +1,5 @@
-Provides some useful snippets for working with jasmine in coffeescript.
+Provides some useful snippets for working with mocha in coffeescript.
 
-Prefix your specs with a modeline to tell vim that it's jasmine in the coffee:
+Prefix your specs with a modeline to tell vim that it's mocha in the coffee:
 
-# vim: set filetype=coffee.jasmine :
-
-
-This is intended to be used with Janus. Add a line to your ~/.janus.rake like this:
-
-vim_plugin_task "coffee-jasmine-snippets", "git://github.com/brendanjerwin/coffee-jasmine-snippets.git"
+# vim: set filetype=coffee.mocha :
